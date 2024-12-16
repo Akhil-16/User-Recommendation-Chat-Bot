@@ -1,0 +1,103 @@
+.section1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    height: 530px;
+}
+
+.half1{
+    background-color: rgba(251,227,215,255);
+    display: flex;
+    width: 45%;
+    min-width: 500px;
+}
+
+.text1{
+    display: inline-block;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 140px;
+}
+
+.heading{
+    display: inline-block;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+.discription{
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.shop_now{
+    font-size: 15px;
+    font-weight: 640;
+    text-decoration: underline rgba(172, 38, 34, 255);
+    text-decoration-thickness: 2.5px;
+}
+
+.image{
+    width: 50%;
+}
+.image1{
+    width: 135%;
+}
+
+.half2{
+    width: 55%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 49% 49%;
+    grid-gap: 10px
+}
+.grid1{
+    display: flex;
+    background-color: rgba(189,226,216,255);
+    padding-left: 35px;
+    min-width: 300px;
+}
+
+.gridimg{
+    text-align: right;
+}
+
+.image1g{
+    width: 80%;
+}
+
+.items{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.grid2{
+    display: flex;
+    background-color: rgba(212,212,238,255);
+    padding-left: 35px;
+    min-width: 300px;
+}
+
+.image2g{
+    width: 100%;
+}
+
+.image3g{
+    width: 63%;
+}
+.grid4,
+.grid3{
+    display: flex;
+    background-color: rgba(252,220,225,255);
+    padding-left: 35px;
+    min-width: 300px;
+}
+
+.grid4{
+    background-color: rgba(204,227,245,255);
+}
+
+.image4g{
+    width: 120%;
+}
